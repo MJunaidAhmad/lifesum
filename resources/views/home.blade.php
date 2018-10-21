@@ -14,7 +14,31 @@
                         </div>
                     @endif
 
-                    You are logged in! <br/> {{\Illuminate\Support\Facades\Auth::user()->daily_calories}} KC
+                  <br/> {{\Illuminate\Support\Facades\Auth::user()->daily_calories}} KC
+
+
+                        <div class="row">
+                            <div class="column">
+                            <a href="{{url('/item')}}" class="btn btn-success">Add Breakfast</a><br/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <a type="button" class="btn btn-success">Add Snacks</a><br/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <a type="button" class="btn btn-success">Add Dinner</a><br/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <a type="button" class="btn btn-success">Add Lunch</a><br/>
+                            </div>
+                        </div>
+
+
                 </div>
             </div>
         </div>

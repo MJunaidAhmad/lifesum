@@ -62,7 +62,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="current_weight" class="col-md-4 col-form-label text-md-right">{{ __('current_weight') }}</label>
+                            <label for="current_weight" class="col-md-4 col-form-label text-md-right">{{ __('Current Weight') }}</label>
 
                             <div class="col-md-6">
                                 <input id="current_weight" type="number" class="form-control" name="current_weight" required>
@@ -70,7 +70,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="desired_weight" class="col-md-4 col-form-label text-md-right">{{ __('desired_weight') }}</label>
+                            <label for="desired_weight" class="col-md-4 col-form-label text-md-right">{{ __('Desired Weight') }}</label>
 
                             <div class="col-md-6">
                                 <input id="desired_weight" type="number" class="form-control" name="desired_weight" required>
